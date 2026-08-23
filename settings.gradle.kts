@@ -5,13 +5,13 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOSITORIES)
     repositories {
         google()
         mavenCentral()
     }
 }
 
-rootProject.name = "PersonalMetricsApp"
+rootProject.name = "Metrics"
 include(":app")
