@@ -1,0 +1,7 @@
+cat << 'EOF' > .gitignore
+.gradle/
+build/
+app/build/
+.DS_Store
+__MACOSX/
+EOF
